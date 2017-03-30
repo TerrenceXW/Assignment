@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<title>TERR SITE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="stylesheets/foundation.min.css">
+<link rel="stylesheet" href="stylesheets/main.css">
+<script src="javascripts/modernizr.foundation.js"></script>
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="row"> <a href="index.html"><img src="images/logo.png" alt="" style="border:none; margin-top:25px"></a> </div>
+<div class="row page_wrap" style="margin-top:-2px">
+  <!-- page wrap -->
+  <div class="twelve columns">
+    <!-- page wrap -->
+    <div class="row">
+      <div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
+        <div class="twelve columns">
+          <ul id="menu-header" class="nav-bar horizontal">
+            <li ><a href="index.html">Home</a></li>
+            <li class="has-flyout"> <a href="#">Example Pages</a><a href="#" class="flyout-toggle"></a>
+              <ul class="flyout">
+                <li class="has-flyout"><a href="search.html">Search API</a></li>
+                <li class="has-flyout"><a href="contact.html">Contact Page</a></li>
+              </ul>
+            </li>
+            <li ><a href="api.html">Terrible API ENDPOINTS</a></li>
+            <li ><a href="favourites.html">Favourites List</a></li>
+            <li ><a href="pinterest-style.html">Pinterest Gallery</a></li>
+            <li ><a href="tiles.html">Tiles</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <!-- END Header -->
+    <div class="heading_dots_grey  hide-for-small">
+      <h1 class="heading_supersize" style="margin-bottom:0"><span class="heading_bg">API ENDPOINTS</span></h1>
+    </div>
+ <div> 
+ 
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Registration</span></h2>
+    </div>       
+<pre>
+URI       http://localhost:5432/login.html
+
+
+Method	  POST
+
+Data	  {
+		"gender"  : "M",
+		"username": "Terrence",
+		"pass"    : "Terrence",
+		"email"	: "Terrence@gmail.com", 
+		"phone"	: "56290627",
+		"skype    : "myisman2@gmail.com
+}
+Result	{
+		server console.log("preper (allData of The User)");
+		server conlse.log": "Successfully Insert Data"
+		alert("user password:" +user.pass);
+		window.location.assign("http://localhost:5432/")
+		
+		  
+}
+Error	{
+		server console.log("Failed to Insert");
+}
+</pre>
+
+          
+<hr>
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">User Login</span></h2>
+    </div>   
+ 
+<pre>
+URI       http://localhost:5432/login.html
+
+
+Method	  POST
+
+Data	  {
+		"gender"  : null,
+		"username": "Terrence",
+		"pass"    : "Terrence",
+
+}
+Result	{
+		console.log(items[i].pass);
+		console.log and io.emit("Login successful");
+		window.location = "/index.html";
+}
+Error	{
+		alert("Login failed.\nUser name or password maybe incorrect. ");
+}
+</pre>
+          
+<hr>
+    
+	
+	
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Add to Favourites List</span></h2>
+    </div>  
+You can test this function in Favourites Page Add-Post button  or tiles Page   Love this ! button  after you loged in.
+
+<pre>
+
+URI       http://rest.learncode.academy/api/XXXXXX/friends
+
+//XXXXXX  <---means who loged in
+//http://rest.learncode.academy/api/XXXXXX/friends  
+^^^^this is a json server  resful api ,  so if you change XXXXXX's value you can create one more record for XXXXXX.
+
+Method	  POST
+
+Data	  {
+		inputed data
+
+}
+Result	{
+		
+		window.location.reload(true)
+}
+Error	{
+		
+		doNothing
+}
+</pre>
+          
+<hr>
+    
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Remove from Favourites List</span></h2>
+	
+    </div>  
+<pre>
+
+URI       http://rest.learncode.academy/api/XXXXXX/friends/ "ID of the data"
+
+If you press Search-Get,the page will show the data's ID --->^^^^^^^^^^^^^^
+
+
+Method	  Delete
+
+Data	  {
+		inputed data
+
+}
+Result	{
+		
+		alert("the data's id ")
+		
+		Favourites Deleted Successfully!!<-sometime not show it,but already deleted  when test in school,
+						   but it works at home.
+}
+Error	{
+		
+		doNothing
+}
+</pre>
+          
+<hr>
+    
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Get from Favourites List</span></h2>
+	  </div>
+<pre>
+
+URI       http://rest.learncode.academy/api/XXXXXX/friends/ 
+
+
+Method	  Get
+
+Data	  {
+		inputed data
+
+}
+Result	{
+		
+		Four Situation
+		1:
+		input == null;
+		
+		List out all data of the user
+		
+		2:
+		
+		input == something;
+		
+		Find out the data and id (only)
+		
+		
+		3:
+		
+		no data There
+		
+		Append No any Favourites data there
+		
+		4
+		
+		input == something;
+		
+		something not found!!;
+}
+Error	{
+
+		Favourites not found!!!<-sometime not show it when test in school, at home is ok
+}
+</pre>
+          
+<hr>
+	
+	
+	
+	
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Web Search API</span></h2>
+	  </div>
+<pre>
+
+URI       https://api.cognitive.microsoft.com/bing/v5.0/search? + input
+
+
+Method	  GET
+
+Data	  {
+
+            "q": input   (for example input =  JSONOBJ)
+            "count": "5",
+            "offset": "0",
+            "mkt": "en-us",
+            "safesearch": "Moderate",
+}
+Result	{
+			It will Alert the data first.Then
+
+          "results 1": [
+            {
+			data.webPages.value[0]
+			
+              ."name": jquery-Convert string to JSON Object- Stack Overflow,
+			  
+              ."url": "http://www.bing.com/cr?IG=A80BAA09730B4574A1DD1E31D613D659&CID=344488354E8F67EB2A5F82604F9D66FB&rd
+			  =1&h=9BbSFf9C_dHyILbfhywpi0Rp9TTyAGECI1nbCVa6d3o&v=1&r=http%3a%2f%2fstackoverflow.com%
+			  2fquestions%2f9164944%2fconvert-string-to-json-object&p=DevEx,5075.1",
+			  
+              ."displayUrl": "stackoverflow.com/questions/9164944/convert-string-to-json-object",
+			  
+              ."snippet": "My string is given below. jsonObj = "{"TeamList" : [{"teamid"... Stack Overflow. Questions; 
+			  Jobs; Documentation beta; Tags; ... Convert string to JSON Object.",
+			  
+              ."dateLastCrawled": "2017-03-26T13:01:00"
+            }]
+			
+          "results 2": [
+		    {
+			data.webPages.value[1]
+			
+              ."name": JsonObject class - UWP app developer | Microsoft Docs,
+			  
+              ."url": "https://www.bing.com/cr?IG=A80BAA09730B4574A1DD1E31D613D659&CID=344488354E8F67EB2A5F82604F9D66FB&rd
+			  =1&h=XG-nlFFI5dJTZFZzL2weE-q2zmoNVfEnX1QvJHXrT2Q&v=1&r=https%3a%2f%2fdocs.microsoft.com%2fen-us%
+			  2fuwp%2fapi%2fWindows.Data.Json.JsonObject&p=DevEx,5154.1",
+			  
+              ."displayUrl": "https://docs.microsoft.com/en-us/uwp/api/Windows.Data.Json.JsonObject",
+			  
+              ."snippet": "Represents a JSON object containing a collection of name and pairs. is an activatable class 
+			  that implements and the interface such that its name/value pairs can be ...",
+			  
+              ."dateLastCrawled": "2017-03-23T01:11:00"
+            }]
+			
+          "results 3": [
+		    {
+			data.webPages.value[2]
+			
+              ."name": jsonQ - A JavaScript library for easy manipulation of JSON ...,
+			  
+              ."url": "http://www.bing.com/cr?IG=EA8559484BAF446DAAE936410256ADC6&CID=0864AE11A8736D95379AA444A9616C6D&rd
+			  =1&h=4VQ4QR4eokHFo1xhApYIo7LYq4_51Q8CKpn7RJndt3E&v=1&r=http%3a%2f%2fignitersworld.com%2flab%2f
+			  jsonQ.html&p=DevEx,5135.1",
+			  
+              ."displayUrl": "ignitersworld.com/lab/jsonQ.html",
+			  
+              ."snippet": "jsonQ is a light weight and feature-rich javascript library to make your world around JSON fast
+			  and easy. For a JSON, it makes traversing, extracting data and ...",
+			  
+              ."dateLastCrawled": "2017-03-23T06:54:00"
+            }]
+			
+          "results 4": [
+		    {
+			data.webPages.value[3]
+			
+              ."name": JSONObject | Android Developers,
+			  
+              ."url": "https://www.bing.com/cr?IG=EA8559484BAF446DAAE936410256ADC6&CID=0864AE11A8736D95379AA444A9616C6D&rd
+			  =1&h=DuWWaJ13NAMWfCiuHnDwLMYea2X3txZYx8c15GmSmdA&v=1&r=https%3a%2f%2fdeveloper.android.com
+			  %2freference%2forg%2fjson%2fJSONObject.html&p=DevEx,5162.1",
+			  
+              ."displayUrl": "https://developer.android.com/reference/org/json/JSONObject.html",
+			  
+              ."snippet": "JSONObject accumulate (String name, Object value) Appends value to the array already mapped to
+			  name. If this object has no mapping for name, this inserts a ...",
+			  
+              ."dateLastCrawled": "2017-03-27T14:41:00"
+            }]
+			
+          "results 5": [
+		    {
+			data.webPages.value[4]
+			
+              ."name": json转字符串 —— jsonObj.toJSONString ... - CSDN.NET,
+			  
+              ."url": "/http://www.bing.com/cr?IG=EA8559484BAF446DAAE936410256ADC6&CID=0864AE11A8736D95379AA444A9616C6D&rd
+			  =1&h=xlee3SNO7ObXnVsSwBZcv3NR-AXfBY1SRE7oipO1ykM&v=1&r=http%3a%2f%2fblog.csdn.net
+			  %2fyenange%2farticle%2fdetails%2f7581022&p=DevEx,5176.1",
+			  
+              ."displayUrl": "blog.csdn.net/yenange/article/details/7581022",
+			  
+              ."snippet": "json转字符串 —— jsonObj.toJSONString()与JSON.stringify(jsonObj) 标签： json email firefox ie.
+			  2012-05-18 17:17 42391 人阅读 评论(3) 收藏 举报 ...",
+			  
+              ."dateLastCrawled": "2017-03-23T17:58:00"
+            }]
+}
+Error	{
+          alert("error");
+}
+</pre>
+          
+<hr>
+    
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">Google map Multiple API</span></h2>
+	  </div>
+<pre>
+
+In contact page 
+
+
+iframe src="https://www.google.com/maps/embed/v1/place?q=
+place_id:ChIJaS5eTlQBBDQRm8j6AjVaNt0&
+key=AIzaSyBaAuyIj1P7RhVwyaQrdwq_tBWa896wMTo"
+style="width:400px; height:375px; border:0">/iframe
+
+
+In this link used 
+
+
+Google Maps Embed API------ embed/v1/place?q=
+
+Reverse Geocoding by Place ID API  --------place_id:ChIJaS5eTlQBBDQRm8j6AjVaNt0
+
+Google Map API --- key=AIzaSyBaAuyIj1P7RhVwyaQrdwq_tBWa896wMTo
+
+				 	
+
+
+URI       https://www.google.com/maps/embed/v1/place
+
+
+Method	  Get
+
+Data	  {
+		"q" = place_id:ChIJaS5eTlQBBDQRm8j6AjVaNt0
+		"key" = AIzaSyBaAuyIj1P7RhVwyaQrdwq_tBWa896wMTo
+}
+Result	{
+	
+		<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJaS5eTlQBBDQRm8j6AjVaNt0&key=AIzaSyBaAuyIj1P7RhVwyaQrdwq_tBWa896wMTo"style="width:400px; height:375px; border:0"></iframe>
+		
+}
+Error	{
+	alert(error); or alert(error kery); or alert(expried);
+		
+}
+</pre>
+
+<hr>
+    <div class="heading_dots_grey  hide-for-small">
+      <h2 class="heading_largesize" style="margin-bottom:0"><span class="heading_bg">User LogOut</span></h2>
+	  </div>
+<pre>
+URI       http://localhost:5432/pinterest-style.html
+
+
+Method	  POST
+
+Data	  {
+		user.action="signout";
+}
+Result	{
+
+		Log Out;		  
+}
+Error	{
+}
+</pre>
+
+
+<hr>
+ </div> 
+
+  
+  
+  
+  
+    <!-- end Masonry container -->
+    <div class="twelve columns">
+      <ul id="menu3" class="footer_menu horizontal">
+        <li ><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+	
+	
+
+  </div>
+</div>
+
+
+
+<!-- end page wrap) -->
+<!-- Included JS Files (Compressed) -->
+<script src="javascripts/foundation.min.js"></script>
+<!-- Initialize JS Plugins -->
+<script src="javascripts/app.js"></script>
+<!-- Masonry for galleries -->
+<script src="javascripts/masonry.js"></script>
+<script>
+
+
+
+
+
+
+$(function () {
+
+
+
+
+
+
+
+
+
+    var $container = $('#container');
+    $container.imagesLoaded(function () {
+        $container.masonry({
+            itemSelector: '.box',
+            isFitWidth: true,
+            isAnimated: true
+        });
+    });
+});
+</script>
+<!-- END Masonry -->
+</body>
+</html>
